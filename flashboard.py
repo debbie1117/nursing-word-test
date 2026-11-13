@@ -10,7 +10,7 @@ import openpyxl
 st.set_page_config(page_title="간호학 의학용어 플래시카드", page_icon="🗂️", layout="centered")
 
 # 🔗 기존 받아쓰기 시험 웹사이트 주소
-DICTATION_APP_URL = "https://streamlit.app"
+DICTATION_APP_URL = "https://nursing-word-test-58ddvddugjimbyvjhdgyin.streamlit.app/"
 
 # ---------------------------------------------------------
 # 1. 엑셀(.xlsx) 및 CSV(.csv) 파일 불러오기
