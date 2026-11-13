@@ -161,7 +161,7 @@ def create_wrong_answers_pdf(wrong_list, range_name):
 # ---------------------------------------------------------
 top_col1, top_col2 = st.columns([2.5, 1])
 with top_col1:
-    st.title("🩺 간호학 의학용어 받아쓰기 & 학습 분석")
+    st.title("🩺 간호학 의학용어 단어 시험 & 학습 분석")
 with top_col2:
     st.write("")
     st.link_button("🗂️ 플래시카드 공부하러 가기", FLASHCARD_APP_URL, use_container_width=True)
@@ -174,7 +174,7 @@ if not word_data or not all_records:
 
 page_mode = st.radio(
     "화면 선택",
-    ["✍️ 받아쓰기 시험", "📊 나의 학습 데이터 분석"],
+    ["✍️ 단어 시험", "📊 나의 학습 데이터 분석"],
     horizontal=True,
     label_visibility="collapsed"
 )
@@ -183,7 +183,7 @@ st.divider()
 # =========================================================
 # [화면 1] 받아쓰기 시험 화면
 # =========================================================
-if page_mode == "✍️ 받아쓰기 시험":
+if page_mode == "✍️ 단어 시험":
     range_options = ["전체 범위"] + list(word_data.keys())
     selected_range = st.selectbox("📚 시험 볼 파트를 선택하세요:", range_options)
 
