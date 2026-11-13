@@ -17,7 +17,7 @@ except ImportError:
 
 st.set_page_config(page_title="간호학 의학용어 테스트 & 데이터 분석", page_icon="🩺", layout="wide")
 
-FLASHCARD_APP_URL = "https://streamlit.app"
+FLASHCARD_APP_URL = "https://nursing-word-test-xcixlbea3grxdnxwxluhgq.streamlit.app/"
 
 # ---------------------------------------------------------
 # 1. 엑셀/CSV 단어장 로드
